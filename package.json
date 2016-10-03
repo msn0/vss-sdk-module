@@ -1,8 +1,8 @@
 {
   "name": "vss-sdk-module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "vss-web-extension-sdk module",
-  "main": "target/index.js",
+  "main": "target/bundle.js",
   "scripts": {
     "prepublish": "webpack -p"
   },
