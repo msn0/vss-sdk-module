@@ -1,0 +1,26 @@
+{
+  "name": "vss-sdk-module",
+  "version": "1.0.0",
+  "description": "vss-web-extension-sdk module",
+  "main": "target/index.js",
+  "scripts": {
+    "prepublish": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msn0/vss-sdk-module.git"
+  },
+  "author": "Michał Jezierski <ambinanitelo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/msn0/vss-sdk-module/issues"
+  },
+  "homepage": "https://github.com/msn0/vss-sdk-module#readme",
+  "devDependencies": {
+    "imports-loader": "^0.6.5",
+    "webpack": "^1.13.2"
+  },
+  "dependencies": {
+    "vss-web-extension-sdk": "^1.105.0"
+  }
+}
