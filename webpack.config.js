@@ -13,10 +13,10 @@ module.exports = {
         publicPath: 'target'
     },
     module: {
-        loaders: [{
+        rules: [{
             test: /\.js$/,
             exclude: /node_modules/,
-            loader: 'babel'
+            loader: 'babel-loader'
         }]
     }
 };
